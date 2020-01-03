@@ -11,7 +11,8 @@ import UIKit
 class AnimalTableViewController: UITableViewController {
     let animals = ["Bear", "Black Swan", "Buffalo", "Camel", "Cockatoo", "Dog", "Donkey", "Emu", "Giraffe", "Greater Rhea", "Hippopotamus", "Horse", "Koala", "Lion", "Llama", "Manatus", "Meerkat", "Panda", "Peacock", "Pig", "Platypus", "Polar Bear", "Rhinoceros", "Seagull", "Tasmania Devil", "Whale", "Whale Shark", "Wombat"]
     var animalsDict = [String: [String]]()
-    var animalSectionTitles = [String]()
+    var animalSectionTitles = [String]() // 上面animals所有首字母的分类
+    let animalIndexTitles = ["A", "B", "C", "D", "E", "F", "G", "H", "I", "J", "K", "L" , "M", "N", "O", "P", "Q", "R", "S", "T", "U", "V", "W", "X", "Y", "Z"]
 
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -51,8 +52,18 @@ class AnimalTableViewController: UITableViewController {
     }
     
     // 添加一个右边索引条
+//    override func sectionIndexTitles(for tableView: UITableView) -> [String]? {
+//        return animalSectionTitles
+//    }
     override func sectionIndexTitles(for tableView: UITableView) -> [String]? {
-        return animalSectionTitles
+        return animalIndexTitles
+    }
+    override func tableView(_ tableView: UITableView, sectionForSectionIndexTitle title: String, at index: Int) -> Int {
+        // 和实际包含的所有titles索引位置进行对比
+        guard let index = animalSectionTitles.firstIndex(of: title) else {
+            return -1
+        }
+        return index
     }
     
     
