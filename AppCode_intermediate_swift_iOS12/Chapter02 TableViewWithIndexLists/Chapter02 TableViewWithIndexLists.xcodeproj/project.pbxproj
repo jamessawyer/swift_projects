@@ -12,6 +12,7 @@
 		9F80579D23BF28A0006832C0 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9F80579B23BF28A0006832C0 /* LaunchScreen.storyboard */; };
 		9F8057A523BF2A27006832C0 /* AnimalTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F8057A423BF2A27006832C0 /* AnimalTableViewController.swift */; };
 		9F8057A723BF356C006832C0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9F8057A623BF356C006832C0 /* Assets.xcassets */; };
+		9F8057A923BF4182006832C0 /* 应用快照.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 9F8057A823BF4182006832C0 /* 应用快照.jpg */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +23,7 @@
 		9F80579E23BF28A0006832C0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		9F8057A423BF2A27006832C0 /* AnimalTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnimalTableViewController.swift; sourceTree = SOURCE_ROOT; };
 		9F8057A623BF356C006832C0 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Assets.xcassets; path = ../../../../../Downloads/IndexedTableDemo/IndexedTableDemo/Assets.xcassets; sourceTree = "<group>"; };
+		9F8057A823BF4182006832C0 /* 应用快照.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "应用快照.jpg"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +56,7 @@
 		9F80578F23BF289C006832C0 /* Chapter02 TableViewWithIndexLists */ = {
 			isa = PBXGroup;
 			children = (
+				9F8057A823BF4182006832C0 /* 应用快照.jpg */,
 				9F80579023BF289C006832C0 /* AppDelegate.swift */,
 				9F8057A423BF2A27006832C0 /* AnimalTableViewController.swift */,
 				9F80579623BF289C006832C0 /* Main.storyboard */,
@@ -123,6 +126,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				9F80579D23BF28A0006832C0 /* LaunchScreen.storyboard in Resources */,
+				9F8057A923BF4182006832C0 /* 应用快照.jpg in Resources */,
 				9F8057A723BF356C006832C0 /* Assets.xcassets in Resources */,
 				9F80579823BF289C006832C0 /* Main.storyboard in Resources */,
 			);
