@@ -40,6 +40,9 @@ class AnimalTableViewController: UITableViewController {
     }
     
     override func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
+        // 4种内置的UITableViewCellStyle：UITableViewCellStyleDefault | UITableViewCellStyleValue1 | UITableViewStyleValue2 | UITableViewCellStyleSubtitle
+        // 此处使用默认样式
+        // https://www.jianshu.com/p/62ac18f8cf69
         let cell = tableView.dequeueReusableCell(withIdentifier: "Cell", for: indexPath)
         let animalKey = animalSectionTitles[indexPath.section]
         if let animalValues = animalsDict[animalKey] {
@@ -65,9 +68,23 @@ class AnimalTableViewController: UITableViewController {
         }
         return index
     }
-    
-    
 
+}
+
+/// Custom Section Headers
+extension AnimalTableViewController {
+    // Section Header 的高度
+    override func tableView(_ tableView: UITableView, heightForHeaderInSection section: Int) -> CGFloat {
+        return 50
+    }
+    
+    // view可以自定义header view样式
+    override func tableView(_ tableView: UITableView, willDisplayHeaderView view: UIView, forSection section: Int) {
+        let headerView = view as! UITableViewHeaderFooterView
+        headerView.backgroundView?.backgroundColor = UIColor(red: 236/255, green: 240/255, blue: 241/255, alpha: 1)
+        headerView.textLabel?.textColor = UIColor(red: 231/255, green: 76/255, blue: 60/255, alpha: 1)
+        headerView.textLabel?.font = UIFont(name: "Avenir", size: 25.0)
+    }
 }
 
 extension AnimalTableViewController {
