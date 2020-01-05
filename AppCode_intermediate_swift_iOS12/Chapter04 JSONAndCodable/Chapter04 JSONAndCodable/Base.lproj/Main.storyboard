@@ -49,12 +49,15 @@
                                                     </subviews>
                                                 </stackView>
                                                 <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Amount" textAlignment="right" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Y7x-9V-UwU">
-                                                    <rect key="frame" x="294.5" y="0.0" width="107.5" height="40"/>
+                                                    <rect key="frame" x="294.5" y="0.0" width="107.5" height="90"/>
                                                     <fontDescription key="fontDescription" name="AvenirNext-Medium" family="Avenir Next" pointSize="29"/>
                                                     <nil key="textColor"/>
                                                     <nil key="highlightedColor"/>
                                                 </label>
                                             </subviews>
+                                            <constraints>
+                                                <constraint firstItem="Y7x-9V-UwU" firstAttribute="centerY" secondItem="mbj-Oe-22a" secondAttribute="centerY" id="vWL-jA-aQ9"/>
+                                            </constraints>
                                         </stackView>
                                     </subviews>
                                     <constraints>

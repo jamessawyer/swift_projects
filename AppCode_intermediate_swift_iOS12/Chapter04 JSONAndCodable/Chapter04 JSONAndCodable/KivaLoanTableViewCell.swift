@@ -39,5 +39,12 @@ class KivaLoanTableViewCell: UITableViewCell {
 
         // Configure the view for the selected state
     }
+    
+    func setupCell(loan: Loan) {
+        nameLabel.text = loan.name
+        countryLabel.text = loan.country
+        useLabel.text = loan.use
+        amountLabel.text = "$\(loan.amount)"
+    }
 
 }
