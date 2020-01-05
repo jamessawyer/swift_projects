@@ -1,0 +1,925 @@
+// 20200104153407
+// https://api.kivaws.org/v1/loans/newest.json
+
+{
+  "paging": {
+    "page": 1,
+    "total": 1470,
+    "page_size": 20,
+    "pages": 74
+  },
+  "loans": [
+    {
+      "id": 1906003,
+      "name": "Leonard's Group",
+      "description": {
+        "languages": [
+          "en"
+        ]
+      },
+      "status": "fundraising",
+      "funded_amount": 25,
+      "basket_amount": 100,
+      "image": {
+        "id": 3336770,
+        "template_id": 1
+      },
+      "activity": "Farming",
+      "sector": "Agriculture",
+      "themes": [
+        "Clean Energy",
+        "Green",
+        "Rural Exclusion",
+        "Solar",
+        "Earth Day Campaign"
+      ],
+      "use": "to purchase hybrid seeds and fertilizer to improve harvests of maize.",
+      "location": {
+        "country_code": "KE",
+        "country": "Kenya",
+        "town": "Teso",
+        "geo": {
+          "level": "town",
+          "pairs": "0.619753 34.345262",
+          "type": "point"
+        }
+      },
+      "partner_id": 202,
+      "posted_date": "2020-01-04T08:20:09Z",
+      "planned_expiration_date": "2020-02-18T08:20:08Z",
+      "loan_amount": 850,
+      "borrower_count": 13,
+      "lender_count": 1,
+      "bonus_credit_eligibility": true,
+      "tags": [
+        
+      ]
+    },
+    {
+      "id": 1905997,
+      "name": "Grace's Group",
+      "description": {
+        "languages": [
+          "en"
+        ]
+      },
+      "status": "fundraising",
+      "funded_amount": 0,
+      "basket_amount": 0,
+      "image": {
+        "id": 3338421,
+        "template_id": 1
+      },
+      "activity": "Farming",
+      "sector": "Agriculture",
+      "themes": [
+        "Clean Energy",
+        "Green",
+        "Rural Exclusion",
+        "Solar",
+        "Earth Day Campaign"
+      ],
+      "use": "to purchase hybrid seeds and fertilizer for the cultivation of maize, as well as a solar light.",
+      "location": {
+        "country_code": "KE",
+        "country": "Kenya",
+        "town": "Lugari",
+        "geo": {
+          "level": "town",
+          "pairs": "0.651158 34.876211",
+          "type": "point"
+        }
+      },
+      "partner_id": 202,
+      "posted_date": "2020-01-04T08:20:08Z",
+      "planned_expiration_date": "2020-02-18T08:20:08Z",
+      "loan_amount": 425,
+      "borrower_count": 7,
+      "lender_count": 0,
+      "bonus_credit_eligibility": true,
+      "tags": [
+        
+      ]
+    },
+    {
+      "id": 1905999,
+      "name": "Anna's Group",
+      "description": {
+        "languages": [
+          "en"
+        ]
+      },
+      "status": "fundraising",
+      "funded_amount": 0,
+      "basket_amount": 0,
+      "image": {
+        "id": 3338464,
+        "template_id": 1
+      },
+      "activity": "Farming",
+      "sector": "Agriculture",
+      "themes": [
+        "Clean Energy",
+        "Green",
+        "Rural Exclusion",
+        "Solar",
+        "Earth Day Campaign"
+      ],
+      "use": "to buy cost efficient maize seeds and fertilizer for the coming harvesting season.",
+      "location": {
+        "country_code": "KE",
+        "country": "Kenya",
+        "town": "Lugari",
+        "geo": {
+          "level": "town",
+          "pairs": "0.651158 34.876211",
+          "type": "point"
+        }
+      },
+      "partner_id": 202,
+      "posted_date": "2020-01-04T08:20:08Z",
+      "planned_expiration_date": "2020-02-18T08:20:08Z",
+      "loan_amount": 500,
+      "borrower_count": 12,
+      "lender_count": 0,
+      "bonus_credit_eligibility": true,
+      "tags": [
+        
+      ]
+    },
+    {
+      "id": 1906000,
+      "name": "Christine's Group",
+      "description": {
+        "languages": [
+          "en"
+        ]
+      },
+      "status": "fundraising",
+      "funded_amount": 0,
+      "basket_amount": 0,
+      "image": {
+        "id": 3336765,
+        "template_id": 1
+      },
+      "activity": "Farming",
+      "sector": "Agriculture",
+      "themes": [
+        "Clean Energy",
+        "Green",
+        "Rural Exclusion",
+        "Solar",
+        "Earth Day Campaign"
+      ],
+      "use": "to buy cost efficient maize seeds and fertilizer for the coming harvesting season.",
+      "location": {
+        "country_code": "KE",
+        "country": "Kenya",
+        "town": "Teso",
+        "geo": {
+          "level": "town",
+          "pairs": "0.619753 34.345262",
+          "type": "point"
+        }
+      },
+      "partner_id": 202,
+      "posted_date": "2020-01-04T08:20:08Z",
+      "planned_expiration_date": "2020-02-18T08:20:08Z",
+      "loan_amount": 550,
+      "borrower_count": 11,
+      "lender_count": 0,
+      "bonus_credit_eligibility": true,
+      "tags": [
+        
+      ]
+    },
+    {
+      "id": 1906001,
+      "name": "Rose's Group",
+      "description": {
+        "languages": [
+          "en"
+        ]
+      },
+      "status": "fundraising",
+      "funded_amount": 0,
+      "basket_amount": 0,
+      "image": {
+        "id": 3338479,
+        "template_id": 1
+      },
+      "activity": "Farming",
+      "sector": "Agriculture",
+      "themes": [
+        "Clean Energy",
+        "Green",
+        "Rural Exclusion",
+        "Solar",
+        "Earth Day Campaign"
+      ],
+      "use": "to purchase hybrid seeds and fertilizer to improve harvests of maize.",
+      "location": {
+        "country_code": "KE",
+        "country": "Kenya",
+        "town": "Lugari",
+        "geo": {
+          "level": "town",
+          "pairs": "0.651158 34.876211",
+          "type": "point"
+        }
+      },
+      "partner_id": 202,
+      "posted_date": "2020-01-04T08:20:08Z",
+      "planned_expiration_date": "2020-02-18T08:20:08Z",
+      "loan_amount": 550,
+      "borrower_count": 9,
+      "lender_count": 0,
+      "bonus_credit_eligibility": true,
+      "tags": [
+        
+      ]
+    },
+    {
+      "id": 1906002,
+      "name": "Nargiza",
+      "description": {
+        "languages": [
+          "en"
+        ]
+      },
+      "status": "fundraising",
+      "funded_amount": 25,
+      "basket_amount": 0,
+      "image": {
+        "id": 3350391,
+        "template_id": 1
+      },
+      "activity": "Higher education costs",
+      "sector": "Education",
+      "themes": [
+        "Higher Education"
+      ],
+      "use": "to pay for her daughter’s tuition at the Khujand State University and help her to become an educated woman.",
+      "location": {
+        "country_code": "TJ",
+        "country": "Tajikistan",
+        "town": "Khujand",
+        "geo": {
+          "level": "town",
+          "pairs": "40.28 69.631667",
+          "type": "point"
+        }
+      },
+      "partner_id": 100,
+      "posted_date": "2020-01-04T08:20:03Z",
+      "planned_expiration_date": "2020-02-18T08:20:03Z",
+      "loan_amount": 525,
+      "borrower_count": 1,
+      "lender_count": 1,
+      "bonus_credit_eligibility": true,
+      "tags": [
+        
+      ]
+    },
+    {
+      "id": 1905995,
+      "name": "Dancan's Group",
+      "description": {
+        "languages": [
+          "en"
+        ]
+      },
+      "status": "fundraising",
+      "funded_amount": 75,
+      "basket_amount": 0,
+      "image": {
+        "id": 3338406,
+        "template_id": 1
+      },
+      "activity": "Farming",
+      "sector": "Agriculture",
+      "themes": [
+        "Clean Energy",
+        "Green",
+        "Rural Exclusion",
+        "Solar",
+        "Earth Day Campaign"
+      ],
+      "use": "to purchase hybrid seeds and fertilizer for the cultivation of maize.",
+      "location": {
+        "country_code": "KE",
+        "country": "Kenya",
+        "town": "Lugari",
+        "geo": {
+          "level": "town",
+          "pairs": "0.651158 34.876211",
+          "type": "point"
+        }
+      },
+      "partner_id": 202,
+      "posted_date": "2020-01-04T08:10:09Z",
+      "planned_expiration_date": "2020-02-18T08:10:08Z",
+      "loan_amount": 775,
+      "borrower_count": 11,
+      "lender_count": 2,
+      "bonus_credit_eligibility": true,
+      "tags": [
+        
+      ]
+    },
+    {
+      "id": 1905988,
+      "name": "Ian's Group",
+      "description": {
+        "languages": [
+          "en"
+        ]
+      },
+      "status": "fundraising",
+      "funded_amount": 0,
+      "basket_amount": 0,
+      "image": {
+        "id": 3338380,
+        "template_id": 1
+      },
+      "activity": "Farming",
+      "sector": "Agriculture",
+      "themes": [
+        "Clean Energy",
+        "Green",
+        "Rural Exclusion",
+        "Solar",
+        "Earth Day Campaign"
+      ],
+      "use": "to purchase a solar light, as well as hybrid seeds and fertilizer to improve harvests of maize.",
+      "location": {
+        "country_code": "KE",
+        "country": "Kenya",
+        "town": "Lugari",
+        "geo": {
+          "level": "town",
+          "pairs": "0.651158 34.876211",
+          "type": "point"
+        }
+      },
+      "partner_id": 202,
+      "posted_date": "2020-01-04T08:10:08Z",
+      "planned_expiration_date": "2020-02-18T08:10:08Z",
+      "loan_amount": 400,
+      "borrower_count": 8,
+      "lender_count": 0,
+      "bonus_credit_eligibility": true,
+      "tags": [
+        
+      ]
+    },
+    {
+      "id": 1905989,
+      "name": "Hellen's Group",
+      "description": {
+        "languages": [
+          "en"
+        ]
+      },
+      "status": "fundraising",
+      "funded_amount": 50,
+      "basket_amount": 0,
+      "image": {
+        "id": 3338387,
+        "template_id": 1
+      },
+      "activity": "Farming",
+      "sector": "Agriculture",
+      "themes": [
+        "Clean Energy",
+        "Green",
+        "Rural Exclusion",
+        "Solar",
+        "Earth Day Campaign"
+      ],
+      "use": "to buy cost efficient maize seeds and fertilizer for the coming harvesting season.",
+      "location": {
+        "country_code": "KE",
+        "country": "Kenya",
+        "town": "Lugari",
+        "geo": {
+          "level": "town",
+          "pairs": "0.651158 34.876211",
+          "type": "point"
+        }
+      },
+      "partner_id": 202,
+      "posted_date": "2020-01-04T08:10:08Z",
+      "planned_expiration_date": "2020-02-18T08:10:08Z",
+      "loan_amount": 600,
+      "borrower_count": 8,
+      "lender_count": 1,
+      "bonus_credit_eligibility": true,
+      "tags": [
+        
+      ]
+    },
+    {
+      "id": 1905990,
+      "name": "Dobista's Group",
+      "description": {
+        "languages": [
+          "en"
+        ]
+      },
+      "status": "fundraising",
+      "funded_amount": 25,
+      "basket_amount": 0,
+      "image": {
+        "id": 3336747,
+        "template_id": 1
+      },
+      "activity": "Farming",
+      "sector": "Agriculture",
+      "themes": [
+        "Clean Energy",
+        "Green",
+        "Rural Exclusion",
+        "Solar",
+        "Earth Day Campaign"
+      ],
+      "use": "to purchase hybrid seeds and fertilizer for the cultivation of maize, as well as a solar light.",
+      "location": {
+        "country_code": "KE",
+        "country": "Kenya",
+        "town": "Teso",
+        "geo": {
+          "level": "town",
+          "pairs": "0.619753 34.345262",
+          "type": "point"
+        }
+      },
+      "partner_id": 202,
+      "posted_date": "2020-01-04T08:10:08Z",
+      "planned_expiration_date": "2020-02-18T08:10:08Z",
+      "loan_amount": 475,
+      "borrower_count": 9,
+      "lender_count": 1,
+      "bonus_credit_eligibility": true,
+      "tags": [
+        
+      ]
+    },
+    {
+      "id": 1905992,
+      "name": "Moses' Group",
+      "description": {
+        "languages": [
+          "en"
+        ]
+      },
+      "status": "fundraising",
+      "funded_amount": 50,
+      "basket_amount": 0,
+      "image": {
+        "id": 3336752,
+        "template_id": 1
+      },
+      "activity": "Farming",
+      "sector": "Agriculture",
+      "themes": [
+        "Clean Energy",
+        "Green",
+        "Rural Exclusion",
+        "Solar",
+        "Earth Day Campaign"
+      ],
+      "use": "to buy cost efficient maize seeds and fertilizer for the coming harvesting season.",
+      "location": {
+        "country_code": "KE",
+        "country": "Kenya",
+        "town": "Teso",
+        "geo": {
+          "level": "town",
+          "pairs": "0.619753 34.345262",
+          "type": "point"
+        }
+      },
+      "partner_id": 202,
+      "posted_date": "2020-01-04T08:10:08Z",
+      "planned_expiration_date": "2020-02-18T08:10:08Z",
+      "loan_amount": 375,
+      "borrower_count": 9,
+      "lender_count": 1,
+      "bonus_credit_eligibility": true,
+      "tags": [
+        
+      ]
+    },
+    {
+      "id": 1905993,
+      "name": "Edith's Group",
+      "description": {
+        "languages": [
+          "en"
+        ]
+      },
+      "status": "fundraising",
+      "funded_amount": 50,
+      "basket_amount": 0,
+      "image": {
+        "id": 3338400,
+        "template_id": 1
+      },
+      "activity": "Farming",
+      "sector": "Agriculture",
+      "themes": [
+        "Clean Energy",
+        "Green",
+        "Rural Exclusion",
+        "Solar",
+        "Earth Day Campaign"
+      ],
+      "use": "to purchase hybrid seeds and fertilizer for the cultivation of maize, as well as a solar light.",
+      "location": {
+        "country_code": "KE",
+        "country": "Kenya",
+        "town": "Lugari",
+        "geo": {
+          "level": "town",
+          "pairs": "0.651158 34.876211",
+          "type": "point"
+        }
+      },
+      "partner_id": 202,
+      "posted_date": "2020-01-04T08:10:08Z",
+      "planned_expiration_date": "2020-02-18T08:10:08Z",
+      "loan_amount": 500,
+      "borrower_count": 8,
+      "lender_count": 1,
+      "bonus_credit_eligibility": true,
+      "tags": [
+        
+      ]
+    },
+    {
+      "id": 1905994,
+      "name": "Mercyline's Group",
+      "description": {
+        "languages": [
+          "en"
+        ]
+      },
+      "status": "fundraising",
+      "funded_amount": 0,
+      "basket_amount": 0,
+      "image": {
+        "id": 3336760,
+        "template_id": 1
+      },
+      "activity": "Farming",
+      "sector": "Agriculture",
+      "themes": [
+        "Clean Energy",
+        "Green",
+        "Rural Exclusion",
+        "Solar",
+        "Earth Day Campaign"
+      ],
+      "use": "to purchase hybrid seeds and fertilizer for the cultivation of maize.",
+      "location": {
+        "country_code": "KE",
+        "country": "Kenya",
+        "town": "Teso",
+        "geo": {
+          "level": "town",
+          "pairs": "0.619753 34.345262",
+          "type": "point"
+        }
+      },
+      "partner_id": 202,
+      "posted_date": "2020-01-04T08:10:08Z",
+      "planned_expiration_date": "2020-02-18T08:10:08Z",
+      "loan_amount": 575,
+      "borrower_count": 10,
+      "lender_count": 0,
+      "bonus_credit_eligibility": true,
+      "tags": [
+        
+      ]
+    },
+    {
+      "id": 1905996,
+      "name": "Mutriba",
+      "description": {
+        "languages": [
+          "en"
+        ]
+      },
+      "status": "fundraising",
+      "funded_amount": 0,
+      "basket_amount": 0,
+      "image": {
+        "id": 3350386,
+        "template_id": 1
+      },
+      "activity": "Higher education costs",
+      "sector": "Education",
+      "themes": [
+        "Higher Education"
+      ],
+      "use": "to pay for her tuition at the Khujand State University so she can complete her studies and develop her knowledge.",
+      "location": {
+        "country_code": "TJ",
+        "country": "Tajikistan",
+        "town": "Kanibadam",
+        "geo": {
+          "level": "town",
+          "pairs": "40.283333 70.416667",
+          "type": "point"
+        }
+      },
+      "partner_id": 100,
+      "posted_date": "2020-01-04T08:10:03Z",
+      "planned_expiration_date": "2020-02-18T08:10:03Z",
+      "loan_amount": 675,
+      "borrower_count": 1,
+      "lender_count": 0,
+      "bonus_credit_eligibility": false,
+      "tags": [
+        
+      ]
+    },
+    {
+      "id": 1905981,
+      "name": "Carolyne's Group",
+      "description": {
+        "languages": [
+          "en"
+        ]
+      },
+      "status": "fundraising",
+      "funded_amount": 50,
+      "basket_amount": 0,
+      "image": {
+        "id": 3338309,
+        "template_id": 1
+      },
+      "activity": "Farming",
+      "sector": "Agriculture",
+      "themes": [
+        "Clean Energy",
+        "Green",
+        "Rural Exclusion",
+        "Solar",
+        "Earth Day Campaign"
+      ],
+      "use": "to purchase hybrid seeds and fertilizer for the cultivation of maize.",
+      "location": {
+        "country_code": "KE",
+        "country": "Kenya",
+        "town": "Lugari",
+        "geo": {
+          "level": "town",
+          "pairs": "0.651158 34.876211",
+          "type": "point"
+        }
+      },
+      "partner_id": 202,
+      "posted_date": "2020-01-04T08:00:10Z",
+      "planned_expiration_date": "2020-02-18T08:00:10Z",
+      "loan_amount": 350,
+      "borrower_count": 7,
+      "lender_count": 2,
+      "bonus_credit_eligibility": true,
+      "tags": [
+        
+      ]
+    },
+    {
+      "id": 1905982,
+      "name": "Caroline's Group",
+      "description": {
+        "languages": [
+          "en"
+        ]
+      },
+      "status": "fundraising",
+      "funded_amount": 0,
+      "basket_amount": 0,
+      "image": {
+        "id": 3338320,
+        "template_id": 1
+      },
+      "activity": "Farming",
+      "sector": "Agriculture",
+      "themes": [
+        "Clean Energy",
+        "Green",
+        "Rural Exclusion",
+        "Solar",
+        "Earth Day Campaign"
+      ],
+      "use": "to purchase a solar light and gain access to cost efficient hybrid seeds and fertilizer for maize cultivation.",
+      "location": {
+        "country_code": "KE",
+        "country": "Kenya",
+        "town": "Lugari",
+        "geo": {
+          "level": "town",
+          "pairs": "0.651158 34.876211",
+          "type": "point"
+        }
+      },
+      "partner_id": 202,
+      "posted_date": "2020-01-04T08:00:10Z",
+      "planned_expiration_date": "2020-02-18T08:00:10Z",
+      "loan_amount": 700,
+      "borrower_count": 6,
+      "lender_count": 0,
+      "bonus_credit_eligibility": true,
+      "tags": [
+        
+      ]
+    },
+    {
+      "id": 1905983,
+      "name": "Agnes' Group",
+      "description": {
+        "languages": [
+          "en"
+        ]
+      },
+      "status": "fundraising",
+      "funded_amount": 0,
+      "basket_amount": 0,
+      "image": {
+        "id": 3338327,
+        "template_id": 1
+      },
+      "activity": "Farming",
+      "sector": "Agriculture",
+      "themes": [
+        "Clean Energy",
+        "Green",
+        "Rural Exclusion",
+        "Solar",
+        "Earth Day Campaign"
+      ],
+      "use": "to purchase hybrid seeds and fertilizer for the cultivation of maize.",
+      "location": {
+        "country_code": "KE",
+        "country": "Kenya",
+        "town": "Lugari",
+        "geo": {
+          "level": "town",
+          "pairs": "0.651158 34.876211",
+          "type": "point"
+        }
+      },
+      "partner_id": 202,
+      "posted_date": "2020-01-04T08:00:10Z",
+      "planned_expiration_date": "2020-02-18T08:00:10Z",
+      "loan_amount": 375,
+      "borrower_count": 9,
+      "lender_count": 0,
+      "bonus_credit_eligibility": true,
+      "tags": [
+        
+      ]
+    },
+    {
+      "id": 1905984,
+      "name": "Henry's Group",
+      "description": {
+        "languages": [
+          "en"
+        ]
+      },
+      "status": "fundraising",
+      "funded_amount": 0,
+      "basket_amount": 0,
+      "image": {
+        "id": 3338334,
+        "template_id": 1
+      },
+      "activity": "Farming",
+      "sector": "Agriculture",
+      "themes": [
+        "Clean Energy",
+        "Green",
+        "Rural Exclusion",
+        "Solar",
+        "Earth Day Campaign"
+      ],
+      "use": "to purchase hybrid seeds and fertilizer to improve harvests of maize.",
+      "location": {
+        "country_code": "KE",
+        "country": "Kenya",
+        "town": "Lugari",
+        "geo": {
+          "level": "town",
+          "pairs": "0.651158 34.876211",
+          "type": "point"
+        }
+      },
+      "partner_id": 202,
+      "posted_date": "2020-01-04T08:00:10Z",
+      "planned_expiration_date": "2020-02-18T08:00:10Z",
+      "loan_amount": 650,
+      "borrower_count": 10,
+      "lender_count": 0,
+      "bonus_credit_eligibility": true,
+      "tags": [
+        
+      ]
+    },
+    {
+      "id": 1905985,
+      "name": "Donald's Group",
+      "description": {
+        "languages": [
+          "en"
+        ]
+      },
+      "status": "fundraising",
+      "funded_amount": 0,
+      "basket_amount": 0,
+      "image": {
+        "id": 3338353,
+        "template_id": 1
+      },
+      "activity": "Farming",
+      "sector": "Agriculture",
+      "themes": [
+        "Clean Energy",
+        "Green",
+        "Rural Exclusion",
+        "Solar",
+        "Earth Day Campaign"
+      ],
+      "use": "to purchase hybrid seeds and fertilizer to improve harvests of maize.",
+      "location": {
+        "country_code": "KE",
+        "country": "Kenya",
+        "town": "Lugari",
+        "geo": {
+          "level": "town",
+          "pairs": "0.651158 34.876211",
+          "type": "point"
+        }
+      },
+      "partner_id": 202,
+      "posted_date": "2020-01-04T08:00:10Z",
+      "planned_expiration_date": "2020-02-18T08:00:10Z",
+      "loan_amount": 750,
+      "borrower_count": 12,
+      "lender_count": 0,
+      "bonus_credit_eligibility": true,
+      "tags": [
+        
+      ]
+    },
+    {
+      "id": 1905987,
+      "name": "Ezekiel's Group",
+      "description": {
+        "languages": [
+          "en"
+        ]
+      },
+      "status": "fundraising",
+      "funded_amount": 0,
+      "basket_amount": 0,
+      "image": {
+        "id": 3336744,
+        "template_id": 1
+      },
+      "activity": "Farming",
+      "sector": "Agriculture",
+      "themes": [
+        "Clean Energy",
+        "Green",
+        "Rural Exclusion",
+        "Solar",
+        "Earth Day Campaign"
+      ],
+      "use": "to purchase hybrid seeds and fertilizer for the cultivation of maize, as well as a solar light.",
+      "location": {
+        "country_code": "KE",
+        "country": "Kenya",
+        "town": "Teso",
+        "geo": {
+          "level": "town",
+          "pairs": "0.619753 34.345262",
+          "type": "point"
+        }
+      },
+      "partner_id": 202,
+      "posted_date": "2020-01-04T08:00:10Z",
+      "planned_expiration_date": "2020-02-18T08:00:10Z",
+      "loan_amount": 475,
+      "borrower_count": 9,
+      "lender_count": 0,
+      "bonus_credit_eligibility": true,
+      "tags": [
+        
+      ]
+    }
+  ]
+}

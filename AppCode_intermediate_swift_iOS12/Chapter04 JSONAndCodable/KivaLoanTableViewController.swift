@@ -1,14 +1,10 @@
 //
 //  KivaLoanTableViewController.swift
 //  Chapter04 JSONAndCodable
-//
-//  Created by lucian on 2020/1/5.
-//  Copyright © 2020 oscar. All rights reserved.
-//
-/// 处理JSON数据的2种方式
-/// 1
-/// 使用 JSONSerialization
 
+/// 处理JSON数据的2种方式
+/// 1.使用 JSONSerialization
+/// 2.使用Codable协议 将json转换为想要的数据类型
 
 
 import UIKit
@@ -61,7 +57,8 @@ extension KivaLoanTableViewController {
             }
             
             if let data = data {
-                self.loans = self.parseJsonData(data: data)
+                self.loans = self.parseDataUsingCodable(data: data)
+//                self.loans = self.parseJsonData(data: data)
                 
                 DispatchQueue.main.async {
                     self.tableView.reloadData()
@@ -72,28 +69,45 @@ extension KivaLoanTableViewController {
         task.resume()
     }
     
-    func parseJsonData(data: Data) -> [Loan] {
+    /// 方式2
+    /// 使用 Codable 中的 JSONDecoder 对json数据进行解析
+    func parseDataUsingCodable(data: Data) -> [Loan] {
         var loans = [Loan]()
+        let decoder = JSONDecoder()
         
         do {
-            let jsonResult = try JSONSerialization.jsonObject(with: data, options: JSONSerialization.ReadingOptions.mutableContainers) as? NSDictionary
-            
-            // 解析JSON
-            let jsonLoans = jsonResult?["loans"] as! [AnyObject]
-            for jsonLoan in jsonLoans {
-                var loan = Loan()
-                loan.name = jsonLoan["name"] as! String
-                loan.amount = jsonLoan["loan_amount"] as! Int
-                loan.use = jsonLoan["use"] as! String
-                let location = jsonLoan["location"] as! [String: AnyObject]
-                loan.country = location["country"] as! String
-                loans.append(loan)
-                
-            }
+            let loanDataStore = try decoder.decode(LoanDataStore.self, from: data)
+            loans = loanDataStore.loans
         } catch {
-            print("parse json error \(error)")
+            print("error \(error)")
         }
         
         return loans
     }
+    
+    /// 方式1 使用 JSONSerialization 对json数据进行解析
+//    func parseJsonData(data: Data) -> [Loan] {
+//        var loans = [Loan]()
+//
+//        do {
+//            let jsonResult = try JSONSerialization.jsonObject(with: data, options: JSONSerialization.ReadingOptions.mutableContainers) as? NSDictionary
+//
+//            // 解析JSON
+//            let jsonLoans = jsonResult?["loans"] as! [AnyObject]
+//            for jsonLoan in jsonLoans {
+//                var loan = Loan()
+//                loan.name = jsonLoan["name"] as! String
+//                loan.amount = jsonLoan["loan_amount"] as! Int
+//                loan.use = jsonLoan["use"] as! String
+//                let location = jsonLoan["location"] as! [String: AnyObject]
+//                loan.country = location["country"] as! String
+//                loans.append(loan)
+//
+//            }
+//        } catch {
+//            print("parse json error \(error)")
+//        }
+//
+//        return loans
+//    }
 }

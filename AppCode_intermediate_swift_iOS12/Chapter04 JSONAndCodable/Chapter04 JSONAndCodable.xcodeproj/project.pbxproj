@@ -14,6 +14,8 @@
 		9F8057F323C2100D006832C0 /* KivaLoanTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F8057F223C2100D006832C0 /* KivaLoanTableViewController.swift */; };
 		9F8057F523C21046006832C0 /* KivaLoanTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F8057F423C21046006832C0 /* KivaLoanTableViewCell.swift */; };
 		9F8057F723C214BE006832C0 /* Loan.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F8057F623C214BE006832C0 /* Loan.swift */; };
+		9F8057F923C21D57006832C0 /* data.json in Sources */ = {isa = PBXBuildFile; fileRef = 9F8057F823C21D57006832C0 /* data.json */; };
+		9F8057FB23C22432006832C0 /* 项目快照 Codable & JSONSerialization.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 9F8057FA23C22432006832C0 /* 项目快照 Codable & JSONSerialization.jpg */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +28,8 @@
 		9F8057F223C2100D006832C0 /* KivaLoanTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KivaLoanTableViewController.swift; sourceTree = SOURCE_ROOT; };
 		9F8057F423C21046006832C0 /* KivaLoanTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KivaLoanTableViewCell.swift; sourceTree = "<group>"; };
 		9F8057F623C214BE006832C0 /* Loan.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Loan.swift; sourceTree = "<group>"; };
+		9F8057F823C21D57006832C0 /* data.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = data.json; sourceTree = "<group>"; };
+		9F8057FA23C22432006832C0 /* 项目快照 Codable & JSONSerialization.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "项目快照 Codable & JSONSerialization.jpg"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -61,11 +65,13 @@
 				9F8057DE23C20FAC006832C0 /* AppDelegate.swift */,
 				9F8057F223C2100D006832C0 /* KivaLoanTableViewController.swift */,
 				9F8057F423C21046006832C0 /* KivaLoanTableViewCell.swift */,
+				9F8057FA23C22432006832C0 /* 项目快照 Codable & JSONSerialization.jpg */,
 				9F8057F623C214BE006832C0 /* Loan.swift */,
 				9F8057E423C20FAC006832C0 /* Main.storyboard */,
 				9F8057E723C20FAF006832C0 /* Assets.xcassets */,
 				9F8057E923C20FAF006832C0 /* LaunchScreen.storyboard */,
 				9F8057EC23C20FAF006832C0 /* Info.plist */,
+				9F8057F823C21D57006832C0 /* data.json */,
 			);
 			path = "Chapter04 JSONAndCodable";
 			sourceTree = "<group>";
@@ -128,6 +134,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9F8057FB23C22432006832C0 /* 项目快照 Codable & JSONSerialization.jpg in Resources */,
 				9F8057EB23C20FAF006832C0 /* LaunchScreen.storyboard in Resources */,
 				9F8057E823C20FAF006832C0 /* Assets.xcassets in Resources */,
 				9F8057E623C20FAC006832C0 /* Main.storyboard in Resources */,
@@ -144,6 +151,7 @@
 				9F8057F523C21046006832C0 /* KivaLoanTableViewCell.swift in Sources */,
 				9F8057F323C2100D006832C0 /* KivaLoanTableViewController.swift in Sources */,
 				9F8057DF23C20FAC006832C0 /* AppDelegate.swift in Sources */,
+				9F8057F923C21D57006832C0 /* data.json in Sources */,
 				9F8057F723C214BE006832C0 /* Loan.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
